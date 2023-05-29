@@ -18,10 +18,61 @@
 const teamMembers = [
      
     {
-        
-    }
+        Name : "Wayne Barnett ",
+        Role : "Founder & CEO  ",
+        Picture : "wayne-barnett-founder-ceo.jpg",
+
+
+
+    },
+
+    {
+        Name : "Angela Caroll",
+        Role : "Chief Editor",
+        Picture : "angela-caroll-chief-editor.jpg",
+
+
+
+    },
+    {
+        Name : "Walter Gordon ",
+        Role : "Office Manager",
+        Picture : " walter-gordon-office-manager.jpg",
+
+
+
+    },
+    {
+        Name : "Angela Lopez ",
+        Role : "Social Media ",
+        Picture : " Manager  angela-lopez-social-media-manager.jpg",
+
+
+
+    },
+    {
+        Name : "Scott Estrada ",
+        Role : "  Developer ",
+        Picture : " scott-estrada-developer.jpg",
+
+
+
+    },
+    {
+        Name : "Barbara Ramos ",
+        Role : "Graphic Designer ",
+        Picture : "barbara-ramos-graphic-designer.jpg",
+
+
+
+    },
+
+
 
 
 
 
 ]
+
+
+console.log(teamMembers)
