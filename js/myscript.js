@@ -63,8 +63,6 @@ const teamMembers = [
         Role : "Graphic Designer ",
         Picture : "barbara-ramos-graphic-designer.jpg",
 
-
-
     },
 
 
@@ -75,4 +73,11 @@ const teamMembers = [
 ]
 
 
-console.log(teamMembers)
+for(key in teamMembers){
+    console.log(key, teamMembers[key])
+
+}
+
+
+  
+
