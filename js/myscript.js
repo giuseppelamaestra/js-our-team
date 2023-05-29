@@ -79,14 +79,25 @@ for(let index = 0; index < teamMembers.length; index++){
 
  const member = teamMembers[index]
 
- console.log(member.Name, member.Role, member.Picture)
+ 
      
-
+ const ul = document.getElementById("list");
+ let li = document.createElement("li")
+   li.innerHTML = [member.Name, member.Role, member.Picture ]
+   ul.appendChild(li);
 
      
   
 
 }
+
+
+
+
+
+
+
+
 
 
 
