@@ -73,10 +73,21 @@ const teamMembers = [
 ]
 
 
-for(key in teamMembers){
-    console.log(key, teamMembers[key])
+
+for(let index = 0; index < teamMembers.length; index++){
+
+
+ const member = teamMembers[index]
+
+ console.log(member.Name, member.Role, member.Picture)
+     
+
+
+     
+  
 
 }
+
 
 
   
